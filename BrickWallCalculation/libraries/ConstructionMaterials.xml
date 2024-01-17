@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ConstructionMaterials</name>
+    </assembly>
+    <members>
+        <member name="T:ConstructionMaterials.Ladrillo">
+            <summary>
+            Represents a type of brick with its three dimensions and your name
+            </summary>
+        </member>
+        <member name="P:ConstructionMaterials.Ladrillo.Name">
+            <summary>
+            Brick type name.
+            </summary>
+        </member>
+        <member name="P:ConstructionMaterials.Ladrillo.Height">
+            <summary>
+            The only vertical dimension.
+            </summary>
+        </member>
+        <member name="P:ConstructionMaterials.Ladrillo.Width">
+            <summary>
+            The shortest horizontal dimension.
+            </summary>
+        </member>
+        <member name="P:ConstructionMaterials.Ladrillo.Lenght">
+            <summary>
+            The longest horizontal dimension.
+            </summary>
+        </member>
+        <member name="M:ConstructionMaterials.Ladrillo.#ctor(System.Double,System.Double,System.Double)">
+            <summary>
+            Create a Ladrillo object from three measurements. 
+            </summary>
+            <param name="height">Number that represents your height.</param>
+            <param name="width">Number that represents your width.</param>
+            <param name="lenght">Number that represents your lenght.</param>
+        </member>
+        <member name="M:ConstructionMaterials.Ladrillo.#ctor(System.String,System.Double,System.Double,System.Double)">
+            <summary>
+            Creates a Brick object from three measurements and the name of the brick type.
+            </summary>
+            <param name="name">String representing the name of the brick type.</param>
+            <param name="height">Number that represents your height.</param>
+            <param name="width">Number that represents your width.</param>
+            <param name="lenght">Number that represents your lenght.</param>
+        </member>
+        <member name="M:ConstructionMaterials.Ladrillo.#ctor(ConstructionMaterials.Ladrillo)">
+            <summary>
+            Create brick type from an existing one.
+            </summary>
+            <param name="other">The argument that represents the properties of the brick type.</param>
+        </member>
+        <member name="M:ConstructionMaterials.Ladrillo.AddJointHeight(System.Double)">
+            <summary>
+            Add the dimension of the joint to the height.
+            </summary>
+            <param name="joint">Mortar joint</param>
+        </member>
+        <member name="M:ConstructionMaterials.Ladrillo.AddJointLenght(System.Double)">
+            <summary>
+            Add the dimension of the joint to the lenght.
+            </summary>
+            <param name="joint">Mortar joint.</param>
+        </member>
+        <member name="M:ConstructionMaterials.Ladrillo.AddJointWidth(System.Double)">
+            <summary>
+            Add the dimension of the joint to the width.
+            </summary>
+            <param name="joint">Mortar joint</param>
+        </member>
+        <member name="M:ConstructionMaterials.Ladrillo.QuantityInMeter(System.Func{ConstructionMaterials.Ladrillo,System.Double},ConstructionMaterials.Ladrillo,System.Double)">
+            <summary>
+            Calculate the number of bricks in one linear meter based on a type of brick and joint size.
+            </summary>
+            <param name="propierty">This means that you can receive a function that takes a Brick object and returns a double value.(l => l.Lenght)</param>
+            <param name="ladrillo">It takes an existing type of brick that it will operate with.</param>
+            <param name="join">Joint size with which it will operate.</param>
+            <returns>Returns a number of bricks.</returns>
+        </member>
+        <member name="M:ConstructionMaterials.Ladrillo.QuantityInFeets(System.Func{ConstructionMaterials.Ladrillo,System.Double},ConstructionMaterials.Ladrillo,System.Double)">
+            <summary>
+            Calculate the number of bricks in one linear feet based on a type of brick and joint size.
+            </summary>
+            <param name="propierty">This means that you can receive a function that takes a Brick object and returns a double value.(l => l.Lenght)</param>
+            <param name="ladrillo">It takes an existing type of brick that it will operate with.</param>
+            <param name="join">Joint size with which it will operate.</param>
+            <returns>Returns a number of bricks.</returns>
+        </member>
+        <member name="M:ConstructionMaterials.Ladrillo.ToString">
+            <summary>
+            Returns a string representation of this object. Use the 'override' modifier to tell C#
+            that you want to use this method to turn objects into strings, rather than the original
+            one that comes by default with generic objects (you want to override it). 
+            </summary>
+            <returns>Prints the name of the brick type, followed by its three measurements.</returns>
+        </member>
+    </members>
+</doc>
