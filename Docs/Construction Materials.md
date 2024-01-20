@@ -44,12 +44,5 @@ Una vez que la biblioteca esté instalada, puedes utilizar la clase Ladrillo en 
 
    // Print brick details
    Console.WriteLine(myBrick.ToString());
+
 ## aoaoalso
-
-
-
-
-
-
-
-
