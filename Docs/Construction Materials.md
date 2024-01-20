@@ -72,7 +72,7 @@ Si deseas contribuir a este proyecto, no dudes en bifurcar el repositorio y envi
 
 ## Licencia
 
-Este proyecto está licenciado bajo la [Licencia MIT]([LICENSE.md](https://choosealicense.com/licenses/mit/)https://choosealicense.com/licenses/mit/).
+Este proyecto está licenciado bajo la [Licencia MIT]([LICENSE.md](https://choosealicense.com/licenses/mit/)https://choosealicense.com/licenses/mit/)
 
 
 
