@@ -2,10 +2,6 @@
 
 Esta biblioteca de C#, denominada `ConstructionMaterials`, proporciona una clase `Ladrillo` que representa un tipo de ladrillo con sus tres dimensiones. La biblioteca también incluye métodos para manipular y calcular cantidades basadas en las dimensiones del ladrillo y los tamaños de las juntas.
 
-## Instalación
-Para utilizar esta biblioteca, sigue estos pasos:
-
-
 ## Tabla de Contenidos
 - [Instalación](#instalación)
 - [Uso](#uso)
@@ -17,9 +13,9 @@ Para utilizar esta biblioteca, sigue estos pasos:
 - [Contribuciones](#contribuciones)
 - [Licencia](#licencia)
 
-## Installation
-To use this library, follow these steps:
-1. Clone the repository to your local machine.
+## Instalación
+Para usar esta libereria, seguir los siguientes pasos:
+1. Clonar este repositorio en su maquina local.
    ```bash
    git clone https://github.com/your-username/ConstructionMaterials.git
 2. Abre la solución en Visual Studio.
