@@ -28,21 +28,28 @@ To use this library, follow these steps:
 
 ## Uso
 Una vez que la biblioteca esté instalada, puedes utilizar la clase Ladrillo en tu proyecto C#.
-```bash
-using ConstructionMaterials;
+   ```bash
+   using ConstructionMaterials;
 
-// Crea un ladrillo
-Ladrillo miLadrillo = new Ladrillo("Estándar", 10.0, 5.0, 20.0);
+   // Create a brick
+   Ladrillo myBrick = new Ladrillo("Standard", 10.0, 5.0, 20.0);
 
-// Manipula las dimensiones del ladrillo
-miLadrillo.AgregarJuntaAltura(0.5);
-miLadrillo.AgregarJuntaAncho(0.25);
+   // Manipulate brick dimensions
+   myBrick.AddJointHeight(0.5);
+   myBrick.AddJointWidth(0.25);
 
-// Calcula la cantidad en metros o pies
-double cantidadEnMetros = Ladrillo.CantidadEnMetro(l => l.Longitud, miLadrillo, 0.1);
-double cantidadEnPies = Ladrillo.CantidadEnPies(l => l.Ancho, miLadrillo, 0.05);
+   // Calculate quantity in meters or feet
+   double quantityInMeters = Ladrillo.QuantityInMeter(l => l.Lenght, myBrick, 0.1);
+   double quantityInFeet = Ladrillo.QuantityInFeets(l => l.Width, myBrick, 0.05);
 
-// Imprime los detalles del ladrillo
-Console.WriteLine(miLadrillo.ToString());
+   // Print brick details
+   Console.WriteLine(myBrick.ToString());
+
+
+
+
+
+
+
 
 
