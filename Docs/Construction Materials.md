@@ -44,5 +44,40 @@ Una vez que la biblioteca esté instalada, puedes utilizar la clase Ladrillo en 
 
    // Print brick details
    Console.WriteLine(myBrick.ToString());
+   ```
 
-## aoaoalso
+## Funcionalidad
+
+### Clase `Ladrillo`
+- Representa un tipo de ladrillo con tres dimensiones: altura, ancho y longitud.
+- Proporciona un indexador para acceder a las dimensiones por índice.
+- Sobrecarga el método `ToString` para imprimir el nombre y las dimensiones del ladrillo.
+
+### Métodos
+- `AddJointHeight(double joint)`: Añade la dimensión de la junta a la altura.
+- `AddJointLenght(double joint)`: Añade la dimensión de la junta a la longitud.
+- `AddJointWidth(double joint)`: Añade la dimensión de la junta al ancho.
+
+### Métodos Estáticos
+- `QuantityInMeter(Func<Ladrillo, double> propierty, Ladrillo ladrillo, double join)`: Calcula la cantidad de ladrillos en un metro lineal.
+- `QuantityInFeets(Func<Ladrillo, double> propierty, Ladrillo ladrillo, double join)`: Calcula la cantidad de ladrillos en un pie lineal.
+
+## Ejemplos
+
+Consulta la sección de uso anterior para ejemplos sobre cómo utilizar la biblioteca ConstructionMaterials.
+
+## Contribuciones
+
+Si deseas contribuir a este proyecto, no dudes en bifurcar el repositorio y enviar solicitudes de extracción.
+
+## Licencia
+
+Este proyecto está licenciado bajo la [Licencia MIT]([LICENSE.md](https://choosealicense.com/licenses/mit/)https://choosealicense.com/licenses/mit/).
+
+
+
+
+
+
+
+
