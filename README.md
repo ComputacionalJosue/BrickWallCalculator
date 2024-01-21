@@ -1,4 +1,4 @@
-o# BrickWallCalculation
+# BrickWallCalculation
 ![Portada Readme](https://github.com/ComputacionalJosue/BrickWallCalculator/blob/master/Docs/Cover%20image.jpg)
 <div align="center">
   <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white">
