@@ -13,10 +13,17 @@ Calcule las cantidades de todos los materiales para la contrucción de un muro d
 ## Funcionamiento de la aplicación
 
 1. **1ra Parte/Entarda de datos(longitudes):**
-   - El primer dato ingresado será el ´system of units´, que determianará si las entradas de datos y los resultados deben estar en sistema ´Metric System´ o ´Imperial System´.
+   - El primer dato ingresado será el `system of units`, que determianará si las entradas de datos y los resultados deben estar en sistema `Metric System` o `Imperial System`.
    - Se determina las dimensiones del muro.
-   - Se hará la ´Verification of windows´ que consta de confirmar si cuentas con ventanas y sus medidas si es que cuenta con ellas.
-   - Se hará la ´Door verification´ que consta de confirmar si cuentas con puertas y sus medidas si es que cuenta con ellas.
+   - Se hará la `Verification of windows` que consta de confirmar si cuentas con ventanas y sus medidas si es que cuenta con ellas.
+   - Se hará la `Door verification` que consta de confirmar si cuentas con puertas y sus medidas si es que cuenta con ellas.
 2. **2da Parte/Cálculo de m2:**
-   - Se hace el cálculo del área de la o las puertas y ventanas y esto se resta con área del muro, obteniendo así ´areaTotal´ del muro.
-3. **3ra
+   - Se hace el cálculo del área de la o las puertas y ventanas y esto se resta con área del muro, obteniendo así `areaTotal` del muro.
+3. **3ra Parte/Cálculo de ladrillos:**
+   - Se recibe las entradas de nombre (opcional), largo, ancho y alto del ladrillo.
+   - A estas alturas la aplicación nos mostrará una lista de opciones de aparejo de ladrillo, donde seleccionamos una.
+   - Aquí ya tendremos `bricksU2` (numero de piezas / unidad²).
+   - Tendremos que ingresar el % de perdida de ladrillo que nostros consideremos.
+   - Aquí ya tendriamos `totalPcs` (el número de ladrillos total utilizado en todo nuetsro muro.
+4.
+
