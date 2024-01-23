@@ -8,7 +8,7 @@
 </div>
 
 
-Aplicación de consola, escrita en su totalidad con [C#](https://dotnet.microsoft.com/es-es/languages/csharp). Calcula las cantidades de todos los materiales para la contrucción de un muro de ladrillo, tomando en cuenta todas las variables, desde las dimensiones del muro hasta el porcentaje de perdidad del ladrillo. Dependiendo de ciertos datos ingresados nos generará un gráfico de la representación del muro con arte ASCII, salvo ciertas excepciones.
+Aplicación de consola, escrita en su totalidad con [C#](https://dotnet.microsoft.com/es-es/languages/csharp) en [Visual Studio IDE](https://visualstudio.microsoft.com/es/vs/). Calcula las cantidades de todos los materiales para la contrucción de un muro de ladrillo, tomando en cuenta todas las variables, desde las dimensiones del muro hasta el porcentaje de perdidad del ladrillo. Dependiendo de ciertos datos ingresados nos generará un gráfico de la representación del muro con arte ASCII, salvo ciertas excepciones.
 
 ## Funcionamiento de la aplicación
 
@@ -25,5 +25,13 @@ Aplicación de consola, escrita en su totalidad con [C#](https://dotnet.microsof
    - Aquí ya tendremos `bricksU2` (numero de piezas / unidad²).
    - Tendremos que ingresar el % de perdida de ladrillo que nostros consideremos.
    - Aquí ya tendriamos `totalPcs` (el número de ladrillos total utilizado en todo nuestro muro.
-4.
+- **4ta Parte / Volumenes:**
+   - Se obtiene el `totalVolume` (volumen total en unidad³) de mortero teniendo en cuanta el % de perdida.
+- **5ta Parte / Entrada de materiales:**
+   -  Aquí la aplicación nos mostrará una lista de Dosificaciones para el mortero.
+   -  Con la seleccion que hagamos obtendremos la masa y el volumen de `cement` y `sand` respectivamente.
+- **6ta Parte / Arte ASCII:**
+   -  La primer posibilidad de impresion de caracteres será la que no contiene aberturas y solo esta formada por columnas y filas de caracteres.
+   -  La segunda posibilidad de impresion de caracteres será la que contiene aberturas ya sea por puertas o ventanas.
+   -  El arte ASCCI generado solo es un aproximado, sin emabrgo utilíza datos que fuimos ingresando desde la abertura de la aplicaión hasta este momento y genera unos nuevos con estos. NO todas las combinaciones generararn arte ASCII, ya sea por dimensiones de muro demasiado grandes o el uso de algun tipo de aparejo no contemplado aún.
 
