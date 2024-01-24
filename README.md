@@ -35,7 +35,13 @@ Esta es una breve descripción de como funciona la aplicación, la cronología d
    -  La segunda posibilidad de impresion de caracteres será la que contiene aberturas ya sea por puertas o ventanas.
    -  El arte ASCCI generado solo es un aproximado; sin emabrgo, utilíza datos que fuimos ingresando desde la abertura de la aplicación hasta este momento y genera unos nuevos con estos. NO todas las combinaciones generararn arte ASCII, ya sea por dimensiones de muro demasiado grandes o el uso de algún tipo de aparejo no contemplado aún.
  
-# Instrucciones para Usuarios Finales 📁
+## Instrucciones para Usuarios Finales 📁
 
-Ve a la pestaña "Releases" en [la página de Releases de nuestro repositorio en GitHub](https://github.com/ComputacionalJosue/BrickWallCalculator/releases), donde encontraras los archivo que necesitas y las intrucciones de acceso y descarga de la Aplicación de Consola.
+Si solo quieres probar o utilizar  la aplicación, ve a la pestaña "Releases" en [la página de Releases de nuestro repositorio en GitHub](https://github.com/ComputacionalJosue/BrickWallCalculator/releases), donde encontraras los archivo que necesitas y las intrucciones de acceso y descarga de la Aplicación de Consola.
+
+## Instrucciones para Desarrolladores 🛠️
+Si eres un desarrollador y deseas contribuir al proyecto, ve a la pestaña de "Releases" en [la página de Releases de nuestro repositorio en GitHub](https://github.com/ComputacionalJosue/BrickWallCalculator/releases), donde encontraras los archivo que necesitas y las intrucciones de acceso y descarga de la Aplicación de Consola.
+
+##Documentation and Reference 📖
+
 
