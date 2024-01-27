@@ -8,7 +8,7 @@
 </div>
 
 
-Aplicación de consola, escrita en su totalidad con [C#](https://dotnet.microsoft.com/es-es/languages/csharp) en [Visual Studio IDE](https://visualstudio.microsoft.com/es/vs/). Calcula las cantidades de todos los materiales para la contrucción de un muro de ladrillo, tomando en cuenta todas las variables, desde las dimensiones del muro hasta el porcentaje de perdidad del ladrillo. Dependiendo de ciertos datos ingresados nos generará un gráfico de la representación del muro con arte ASCII, salvo ciertas excepciones.
+Aplicación de consola, escrita en su totalidad con [C#](https://dotnet.microsoft.com/es-es/languages/csharp) en [Visual Studio IDE](https://visualstudio.microsoft.com/es/vs/). Calcula las cantidades de todos los materiales para la contrucción de un muro de ladrillo, tomando en cuenta todas las variables, desde las dimensiones del muro hasta el porcentaje de perdida del ladrillo. Dependiendo de ciertos datos ingresados nos generará un gráfico de la representación del muro con arte ASCII, salvo ciertas excepciones.
 
 ## Funcionamiento de la aplicación ⚙️
 Esta es una breve descripción de como funciona la aplicación, la cronología de los pasos esta dada por como esta escrito el código.
@@ -34,6 +34,7 @@ Esta es una breve descripción de como funciona la aplicación, la cronología d
    -  La primer posibilidad de impresion de caracteres será la que no contiene aberturas y solo está formada por columnas y filas de caracteres.
    -  La segunda posibilidad de impresion de caracteres será la que contiene aberturas ya sea por puertas o ventanas.
    -  El arte ASCCI generado solo es un aproximado; sin emabrgo, utilíza datos que fuimos ingresando desde la abertura de la aplicación hasta este momento y genera unos nuevos con estos. NO todas las combinaciones generararn arte ASCII, ya sea por dimensiones de muro demasiado grandes o el uso de algún tipo de aparejo no contemplado aún.
+
  
 ## Instrucciones para Usuarios Finales 📁
 
@@ -42,6 +43,30 @@ Si solo quieres probar o utilizar  la aplicación, ve a la pestaña "Releases" e
 ## Instrucciones para Desarrolladores 🛠️
 Si eres un desarrollador y deseas contribuir al proyecto, ve a la pestaña de "Releases" en [la página de Releases de nuestro repositorio en GitHub](https://github.com/ComputacionalJosue/BrickWallCalculator/releases), donde encontraras los archivo que necesitas y las intrucciones de acceso y descarga de la Aplicación de Consola.
 
-##Documentation and Reference 📖
+## Documentacion 📖
+
+Su fuente de documentación más confiable y primaria es probablemente el código mismo y los comentarios que contiene.
+Sin embargo puede encontrar la documentación existente y refrencias necesarias para comprender mejor el proyecto aquí:
+Video sobre proyecto:
+[![Imagen que representa el video](https://github.com/ComputacionalJosue/BrickWallCalculator/blob/master/Docs/Video.png)](https://www.facebook.com/josue.hurtado.33633/videos/1881554428906474?locale=es_LA)
+
+Podras encontrar po aui la .....
+
+
+
+## Agradecimientos 🎁
+
+Este proyecto es la puesta en práctica de todo lo aprendido en el playlist de "Learning C#: Introduction to Computer Programming for Designers" de [ParametricCamp](https://www.youtube.com/@ParametricCamp/playlists) impartida por el maestro [José Luis García del Castillo](https://github.com/garciadelcastillo).
+
+Este proyecto fue realizado enteramente por [Josué Israel Hurtado](https://github.com/ComputacionalJosue) 
+
+## Authors ✒️
+
+- [@ComputacionalJosue](https://github.com/ComputacionalJosue)
+
+  
+## License 📄
+
+[MIT](https://choosealicense.com/licenses/mit/)
 
 
