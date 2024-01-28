@@ -5,7 +5,7 @@ VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrickWallCalculation", "BrickWallCalculation\BrickWallCalculation.csproj", "{9F9D178B-1309-45BC-852B-78E1696100E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstructionMaterials", "ConstructionMaterials\ConstructionMaterials\ConstructionMaterials.csproj", "{4B9A8555-2D3F-4902-9881-8666028A9B36}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstructionMaterials", "..\ConstructionMaterials\ConstructionMaterials\ConstructionMaterials.csproj", "{4B9A8555-2D3F-4902-9881-8666028A9B36}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

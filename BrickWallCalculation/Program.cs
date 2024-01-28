@@ -1024,8 +1024,8 @@ namespace BrickWallCalculation
                                     Console.Write("▓");
                                     break;
                                 }
-                                else if (h == numWindows - 1 || Math.Abs(dxWindow) > pixelXWindow[h] && Math.Abs(dyWindow) > pixelYWindow[h]
-                                        && Math.Abs(dxDoor) > pixelXDoor[h] && Math.Abs(dyDoor) > pixelYDoor[h])
+                                else if (h == numWindows - 1 || Math.Abs(dxWindow) < pixelXWindow[h] && Math.Abs(dyWindow) < pixelYWindow[h]
+                                        && Math.Abs(dxDoor) < pixelXDoor[h] && Math.Abs(dyDoor) < pixelYDoor[h])
                                 {
                                     wall = true;
                                     break;
