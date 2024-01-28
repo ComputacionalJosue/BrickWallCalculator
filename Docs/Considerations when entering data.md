@@ -1,4 +1,4 @@
-# Consideracionesa al ingresar los datos
+# Consideraciones al ingresar los datos
 A la hora de llenar los datos pueden surgir un par de dudas al momento de ingresar ciertos datos, este documento te liberará de esas dudas:
 
 ## Aparejo de ladrillo
