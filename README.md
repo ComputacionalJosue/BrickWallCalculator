@@ -50,13 +50,18 @@ Sin embargo puede encontrar la documentación existente y refrencias necesarias 
 Video sobre proyecto:
 [![Imagen que representa el video](https://github.com/ComputacionalJosue/BrickWallCalculator/blob/master/Docs/Video.png)](https://www.facebook.com/josue.hurtado.33633/videos/1881554428906474?locale=es_LA)
 
-Podras encontrar po aui la .....
+Si eres usuario es obligatorio revisar [Consideraciones al ingresar los datos](https://github.com/ComputacionalJosue/BrickWallCalculator/blob/master/Docs/Considerations%20when%20entering%20data.md), debido a que a la hora de llenar los datos pueden surgir un par de dudas al momento de ingresar ciertos datos: `Height`, `Length` y `Weight`. 
 
+La documentación sobre la biblioteca de *Construction Materials Library* se puede encontrar en  [aquí](https://github.com/ComputacionalJosue/BrickWallCalculator/blob/master/Docs/Construction%20Materials.md).
+
+Si deseas saber los datos específicos de las dosificaciones  con los que trabaja la aplicaion [aquí](https://github.com/ComputacionalJosue/BrickWallCalculator/blob/master/Docs/Considerations%20when%20entering%20data.md).
 
 
 ## Agradecimientos 🎁
 
 Este proyecto es la puesta en práctica de todo lo aprendido en el playlist de "Learning C#: Introduction to Computer Programming for Designers" de [ParametricCamp](https://www.youtube.com/@ParametricCamp/playlists) impartida por el maestro [José Luis García del Castillo](https://github.com/garciadelcastillo).
+
+Un agradecimiento al arquitecto [Eric Rivero Linares](https://www.facebook.com/eric.riverolinares?locale=es_LA), por que en su momento aprendí de el el método manual para hacer estos cálculos.
 
 Este proyecto fue realizado enteramente por [Josué Israel Hurtado](https://github.com/ComputacionalJosue) 
 
