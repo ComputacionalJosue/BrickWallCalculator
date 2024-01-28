@@ -48,7 +48,7 @@ Si eres un desarrollador y deseas contribuir al proyecto, ve a la pestaña de "R
 Su fuente de documentación más confiable y primaria es probablemente el código mismo y los comentarios que contiene.
 Sin embargo puede encontrar la documentación existente y refrencias necesarias para comprender mejor el proyecto aquí:
 
-Video sobre proyecto:
+Video sobre proyecto aquí:
 [![Imagen que representa el video](https://github.com/ComputacionalJosue/BrickWallCalculator/blob/master/Docs/Video.png)](https://www.facebook.com/josue.hurtado.33633/videos/1881554428906474?locale=es_LA)
 
 Si eres usuario es obligatorio revisar [Consideraciones al ingresar los datos](https://github.com/ComputacionalJosue/BrickWallCalculator/blob/master/Docs/Considerations%20when%20entering%20data.md), debido a que a la hora de llenar los datos pueden surgir un par de dudas al momento de ingresar ciertos datos: `Height`, `Length` y `Weight`. 
