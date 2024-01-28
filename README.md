@@ -47,6 +47,7 @@ Si eres un desarrollador y deseas contribuir al proyecto, ve a la pestaña de "R
 
 Su fuente de documentación más confiable y primaria es probablemente el código mismo y los comentarios que contiene.
 Sin embargo puede encontrar la documentación existente y refrencias necesarias para comprender mejor el proyecto aquí:
+
 Video sobre proyecto:
 [![Imagen que representa el video](https://github.com/ComputacionalJosue/BrickWallCalculator/blob/master/Docs/Video.png)](https://www.facebook.com/josue.hurtado.33633/videos/1881554428906474?locale=es_LA)
 
