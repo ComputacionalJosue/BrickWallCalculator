@@ -66,6 +66,10 @@ Consulta la sección de uso anterior para ejemplos sobre cómo utilizar la bibli
 
 Si deseas contribuir a este proyecto, no dudes en bifurcar el repositorio y enviar solicitudes de extracción.
 
+## Authors ✒️
+
+- [@ComputacionalJosue](https://github.com/ComputacionalJosue)
+
 ## Licencia
 
 Este proyecto está licenciado bajo la [Licencia MIT](https://choosealicense.com/licenses/mit/)
