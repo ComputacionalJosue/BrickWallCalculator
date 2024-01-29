@@ -55,7 +55,7 @@ Si eres usuario es obligatorio revisar [Consideraciones al ingresar los datos](h
 
 La documentación sobre la biblioteca de *Construction Materials Library* se puede encontrar en  [aquí](https://github.com/ComputacionalJosue/BrickWallCalculator/blob/master/Docs/Construction%20Materials.md).
 
-Si deseas saber los datos específicos de las dosificaciones  con los que trabaja la aplicaion [aquí](https://github.com/ComputacionalJosue/BrickWallCalculator/blob/master/Docs/Considerations%20when%20entering%20data.md).
+Si deseas saber los datos específicos de las dosificaciones  con los que trabaja la aplicación [aquí](https://github.com/ComputacionalJosue/BrickWallCalculator/blob/master/Docs/Considerations%20when%20entering%20data.md).
 
 
 ## Agradecimientos 🎁
