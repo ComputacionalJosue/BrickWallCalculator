@@ -62,8 +62,6 @@ Si deseas saber los datos específicos de las dosificaciones  con los que trabaj
 
 Este proyecto es la puesta en práctica de todo lo aprendido en el playlist de "Learning C#: Introduction to Computer Programming for Designers" de [ParametricCamp](https://www.youtube.com/@ParametricCamp/playlists) impartida por el maestro [José Luis García del Castillo](https://github.com/garciadelcastillo).
 
-Un agradecimiento al arquitecto [Eric Rivero Linares](https://www.facebook.com/eric.riverolinares?locale=es_LA), por que en su momento aprendí de el, el método manual para hacer estos cálculos.
-
 Este proyecto fue realizado enteramente por [Josué Israel Hurtado](https://github.com/ComputacionalJosue) 
 
 ## Authors ✒️
